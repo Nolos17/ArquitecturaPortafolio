@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.opt-form {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
