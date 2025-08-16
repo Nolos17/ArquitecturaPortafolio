@@ -2,8 +2,8 @@
 
 ## Requisitos
 
-* Docker
-* Docker Compose
+- Docker
+- Docker Compose
 
 ## Estructura de carpetas
 
@@ -36,13 +36,14 @@ docker-compose up
 
 4. Acceder:
 
-* Frontend: [http://localhost:5173](http://localhost:5173)
-* Backend API: [http://localhost:8000/docs](http://localhost:8000/docs)
-* Para mas detalles del funcionamiento revise el archivo **README.md** de cada proyecto
+- Frontend: [http://localhost:5173](http://localhost:5173)
+- Backend API: [http://localhost:8000/docs](http://localhost:8000/docs)
+- Para mas detalles del funcionamiento revise el archivo **README.md** de cada proyecto
+
 ## Nota
 
-* Las llamadas Axios del frontend apuntan al backend automáticamente mediante `VITE_BACKEND_URL`.
-* Para reiniciar contenedores:
+- Las llamadas Axios del frontend apuntan al backend automáticamente mediante `VITE_BACKEND_URL`.
+- Para reiniciar contenedores:
 
 ```bash
 docker-compose down
